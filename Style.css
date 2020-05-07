@@ -1,0 +1,72 @@
+body {
+    background-color: palevioletred;
+  }
+  
+  h1 {
+    color:whitesmoke;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .card {
+       background-color:palevioletred;
+       position: ;
+       display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+  }
+  .card-img-top {
+
+
+  }
+
+  .card-body {
+             background-color:
+             
+  }
+
+  .card-title {
+
+  }
+
+  .card-text {
+
+  }
+
+  .result-text {
+    text-align: center;
+  }
+
+  .result__score {
+    text-align: center;
+  }
+
+  .para {
+    text-align: center;
+  
+  }
+
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+    }
+
+  .form-group {
+     text-align: center;
+     color: whitesmoke;
+    }
+  
+  #myButton2 {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+  }
+
