@@ -13,15 +13,13 @@ $.ajax(settings).done(function (response) {
 	console.log(response);
 });
 
-function myFunction() {
-	document.getElementById("demo").innerHTML = "13%";
-  }
 
- function checkforblank( {
-	 var errormessage = "";
-	 if (document.getElementById('fname').value == ""){
-		 errormessage += "enter your first name \n"
-		 document.getElementById('fname').style.borderColor=
-		 return false;
-	 }
-    }
+
+ 
+//Form Script
+var yourName = "Mike";  
+var cushName = 'Amiri';  
+
+document.getElementById("13%").innerHTML =
+yourName + " " + crushName; 
+//Submit Button --- Find love!<3

@@ -6,6 +6,12 @@ body {
     color:whitesmoke;
     text-align: center;
   }
+
+  h2 {
+    color: whitesmoke;
+    text-align: center;
+  }
+
   
   p {
     font-family: verdana;
@@ -14,59 +20,73 @@ body {
 
   .card {
        background-color:palevioletred;
-       position: ;
        display: block;
       margin-left: auto;
       margin-right: auto;
       width: 25%;
   }
   .card-img-top {
-
-
+    border-style: solid;
+    border-width: medium;
+    color: thistle;
+    border-radius: 25px;
+ 
+  padding: 20px;
+  width: 285px;
+  height: 150px;
   }
-
   .card-body {
-             background-color:
-             
+    border-style: solid;
+    border-width: medium;
+    color: thistle;     
   }
-
   .card-title {
-
   }
-
   .card-text {
-
   }
-
   .result-text {
     text-align: center;
+    border-style: solid;
+    border-width: medium;
+    color: whitesmoke;
+  } 
+
+  .button {
+    background-color: palevioletred; /* Green */
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      justify-content: center;
+      align-items: center;
+      display: flex; 
+      justify-content: center;
   }
 
-  .result__score {
+  #Btn  {
+    background-color: palevioletred; /* Green */
+    color:white;
+    padding: 15px 32px;
     text-align: center;
-  }
-
-  .para {
-    text-align: center;
-  
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      justify-content: center;
+      align-items: center;
+      display: flex; 
+      justify-content: center;
   }
 
   .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 25%;
-    }
-
-  .form-group {
-     text-align: center;
-     color: whitesmoke;
-    }
-  
-  #myButton2 {
     display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 25%;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 
+  }
+      
+    
+
+  
