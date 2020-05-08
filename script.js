@@ -3,12 +3,13 @@
 var yourName = "";  
 var crushName = "";  
 
+
 document.getElementById("percentage").innerHTML =
 yourName + " " + crushName; 
 $("#Btn").on("click" ,function(){
 	event.preventDefault();
 	var yourName = $("#name").val();  
-    var crushName = $("#crush").val();  
+	var crushName = $("#crush").val();  
 	var settings = {
 		"async": true,
 		"crossDomain": true,
@@ -22,8 +23,12 @@ $("#Btn").on("click" ,function(){
 	
 	$.ajax(settings).done(function (response) {
 		console.log(response);
-		document.getElementById("percentage").innerHTML =
-        $("#yourName")+" "+$("#crushName");
+		// document.getElementById("percentage").innerHTML=
+		// yourName+" "+crushName;
+		var percentageDiv=$("#percentage")
+		var percentage=response.percentage
+		percentageDiv.append($("<h1>").text(yourName+" "+crushName +"="+ percentage))
+		percentageDiv.append($("<h2>").text(response.result))
 	});
 	
 
